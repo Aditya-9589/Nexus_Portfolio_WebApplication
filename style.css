@@ -11,21 +11,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
-:root {
-    --bg-color: white;
-    --second-bg-color: rgb(248, 238, 238);
-    --text-color: rgb(10, 10, 10);
-    --main-color: rgb(28, 26, 26);
-}
-
 html {
     font-size: 65%;
     overflow-x: hidden;
 }
 
 body {
-    background: var(--bg-color);
-    color: var(--text-color);
+    background: white;
+    color: black;
 }
 
 /*-- Header Section : navbar --*/
@@ -34,8 +27,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
-    background: rgb(236, 95, 95);
+    padding: 2.5rem 2.5%;
+    background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,9 +36,43 @@ body {
 }
 
 .logo {
-    font-size: 30px;
+    font-size: 3.2rem;
     color: black;
     font-weight: 600;
     line-height: 1;
-    padding: 0px 0px 0px 25px;
+}
+
+.navbar a {
+    font-size: 1.6rem;
+    color: rgb(32, 31, 31);
+    font-weight: 500;
+    align-items: center;
+    margin-left: 3.5rem;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color:black;
+}
+
+.contact-button-container {
+    text-align: right;
+}
+
+.contact-button {
+    margin: 1rem;
+    padding: 1rem 1.8rem;
+    font-size: 1.6rem;
+    background-color: white;
+    color: black;
+    border: 0.2rem solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.contact-button:hover {
+    background-color: black;
+    color: white;
 }
