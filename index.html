@@ -6,55 +6,426 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexusInfo</title>
 
+
+    <!--  box icon  -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
     <link rel="stylesheet" href="style.css">
 
-    <!-- Box Icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
 </head>
 
 <body>
 
-    <!--  Header Design  -->
+    <!-- Header Section Starting  -->
+
     <header class="header">
         <a href="#" class="logo">NEXUS</a>
 
-        <div class="bx bx-menu" id="menu-icon"></div>
+        <div class="bx bx-menu" id="menu-icon">
+           <i class="ri-menu-line"></i>
+        </div>
 
         <nav class="navbar">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#internship">Internship</a>
             <a href="#services">Services</a>
-            <a href="#q & a">Q & A</a>
+            <a href="#q&a">Q & A</a>
             <a href="#contactus">Contact Us</a>
+
+            <span class="active-nav"></span>
         </nav>
-        <div class="contact-button-container">
-            <button class="contact-button">CONTACT</button>
-        </div>
     </header>
 
-    <!-- home section design -->
+
+    <!-- Home Section Starting -->
+
     <section class="home" id="home">
         <div class="home-content">
-            <h3>-- Welcome To</h3>
-            <h1>Nexus Info</h1>
-            <p>Transform your business digitally with our cutting-edge solutions,
+
+            <h1>Welcome To</h1>
+            <h3><span>Nexus Info</span></h3>
+            <p>
+                Transform your business digitally with our cutting-edge solutions,
                 tailored to boost your online presence and drive unparalleled
                 success. Step into a world where technology meets progress,
-                and let Nexus Info be your partner in achieving new heights
-                of digital growth.
+                and let Nexus Info be your partner in achieving new heights of
+                digital growth.
             </p>
 
-            <div class="box-button-container">
-                <button class="discover-button">Discover More</button>
-                <button class="animated-button">animate</button>
+            <div class="btn-box">
+                <a href="#" class="discover-btn">DISCOVER MORE</a>
+                <a href="#" class="contact-btn">CONTACT</a>
             </div>
+        </div>
+        <div class="home-image">
+            <img src="https://nexusinfo.in/assets/images/HD-Wallpaper.jpg" alt="home" />
         </div>
     </section>
 
 
-    <script src="main.js"></script>
+    <!-- About Section Starting -->
 
+    <section class="about" id="about">
+
+        <div class="about-image">
+            <img src="https://nexusinfo.in/assets/images/Bg-2.png" 
+            width="600" height="500" alt="home" />
+        </div>
+
+        <div class="about-content">
+            <h1>We design success for your future.</h1>
+            <p>
+                Welcome to Nexus, where standards and quality converge to redefine
+                excellence in the digital realm.
+            </p>
+            <ul class="about-list">
+                <li>Setting standards and quality in web products</li>
+                <li>Elevating brands and fostering growth</li>
+                <li>Providing a dynamic and personalized educational experience</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Internship Section Starting  -->
+
+    <section class="internship" id="internship">
+
+        <div class="internship-content">
+            <p>-Join our team-</p>
+            <h3>Career</h3>
+            <h5>Embark on a journey of mutual growth with Nexus,
+                where our success intertwines with yours.
+            </h5>
+        </div>
+        <ul class="grid-list">
+            <li>
+                <div class="card-icon">
+                    <img src="https://static.thenounproject.com/png/5955921-200.png" alt="graphic design" width="140"
+                        height="140" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3>Internship</h3>
+                    <p>Internship for freshers and students for career development
+                        (1 months).
+                    </p>
+                    <div class="btn-box">
+                        <a href="#" class="apply-btn">Apply</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card-icon">
+                    <img src="https://static.thenounproject.com/png/5955917-200.png" alt="graphic design" width="140"
+                        height="140" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3>Internship for beginners</h3>
+                    <p>College students and beginners can apply for this internship
+                        (3 months).
+                    </p>
+                    <div class="btn-box">
+                        <a href="#" class="apply-btn">Apply</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+
+    <!-- Services Section Starting -->
+
+    <section class="services" id="services">
+        <div class="services-content">
+            <p>-Nexus Product-</p>
+            <h3>Services</h3>
+            <h5>Unlock innovation with our cutting-edge software solutions
+                and services tailored to elevate your digital presence.
+            </h5>
+        </div>
+        <ul class="grid-list">
+            <li>
+                <div class="card-content">
+                    <data class="card-number" value="01">01</data>
+                    <h3>Business Websites</h3>
+                    <p>Elevate your online presence with custom-crafted websites
+                        that capture your vision and engage your audience.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="card-content">
+                    <data class="card-number" value="02">02</data>
+                    <h3>E-Commerce Websites</h3>
+                    <p>Step into the digital marketplace with seamless online
+                        shopping experiences that empower your business to thrive.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="card-content">
+                    <data class="card-number" value="03">03</data>
+                    <h3>Educational Websites</h3>
+                    <p>Transform education in the digital age with platforms 
+                        that facilitate learning and collaboration for 
+                        institutions and educators.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="card-content">
+                    <data class="card-number" value="04">04</data>
+                    <h3>Career Programs</h3>
+                    <p>Ignite professional growth with enriching internships,
+                        bridging the gap between academic learning and real-world
+                        success.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="card-content">
+                    <data class="card-number" value="05">05</data>
+                    <h3>Business Consulting</h3>
+                    <p>Strategic vision meets actionable plans - trust Nexus for
+                        business strategies that pave the way for sustained growth 
+                        and success.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="card-content">
+                    <data class="card-number" value="06">06</data>
+                    <h3>Design Services</h3>
+                    <p>Elevate your brand with our striking logos and captivating 
+                        posters - expertly crafted to leave a lasting impression.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+
+    <!-- Q&A Section Starting -->
+
+    <section class="QNA" id="q&a">
+        <div class="QNA-content">
+            <div class="title">
+                <h2>Discover Frequently Asked Questions?</h2>
+                <a href="#internship" class="QNA-btn">Work Together
+                </a>
+            </div>
+        </div>
+        <ul class="grid-list">
+            <li>
+                <div class="QNA-card">
+                    <button class="card-action">
+                        <h3 class="card-title">
+                            01. How much does a website cost?
+                        </h3>
+                    </button>
+                    <p class="card-content">
+                        Get a website for your business at a budget that 
+                        suits you. We're committed to expanding your 
+                        digital presence affordably.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="QNA-card">
+                    <button class="card-action">
+                        <h3 class="card-title">
+                            02. Who can apply for the internship?
+                        </h3>
+                    </button>
+                    <p class="card-content">
+                        Our internships are open to students and freshers
+                        looking to kickstart their careers. Gain valuable 
+                        industry exposure and earn five certifications to 
+                        boost your resume.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="QNA-card">
+                    <button class="card-action">
+                        <h3 class="card-title">
+                            03. What products does Nexus offer?
+                        </h3>
+                    </button>
+                    <p class="card-content">
+                        Nexus offers a diverse range of digital solutions, 
+                        including websites, E-Commerce platforms, educational 
+                        websites, career-enriching internships, business 
+                        consulting, and expert design services. Elevate your
+                        online presence with our tailored and versatile 
+                        approach, unlocking growth and success for your business.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="QNA-card">
+                    <button class="card-action">
+                        <h3 class="card-title">
+                            04. How does Nexus Info help businesses grow?
+                        </h3>
+                    </button>
+                    <p class="card-content">
+                        Websites are powerful tools to generate digital leads 
+                        and build trust with customers. Nexus is here to 
+                        guide you in creating a strong online presence that 
+                        fuels business growth.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="QNA-card">
+                    <button class="card-action">
+                        <h3 class="card-title">
+                            05. What are the benefits of the Nexus Internship?
+                        </h3>
+                    </button>
+                    <p class="card-content">
+                        Our internship offers industry exposure and hands-on 
+                        experience with client-level projects. Stand out as 
+                        a top performer and you may secure a full-time 
+                        opportunity at Nexus, kickstarting your professional 
+                        journey.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+
+    <!-- Footer Section Starting -->
+    <footer class="footer" id="contactus">
+        <div class="footer-top section">
+            <div class="container">
+                <div class="footer-brand">
+                    <a href="#" class="logo">NEXUS</a>
+                    <p>
+                        From code to classroom and media mastery, Nexus empowers 
+                        excellence across the digital landscape, harmonizing 
+                        software, learning, and media for a holistic journey 
+                        into the future.
+                    </p>
+                </div>
+                <ul>
+                    <li>
+                        <p class="footer-list-title">Our Services</p>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Software & Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">E-Learning</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Media & Branding</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Digital Marketing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Business Strategies</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Career Growth</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p class="footer-list-title">Overview</p>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">About Company</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Internship</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Q & A</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Contact Us</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p class="footer-list-title">Contact Us</p>
+                    </li>
+                    <li class="footer-item">
+                        <i class='bx bx-current-location' ></i>
+                        <a href="#" class="contact-link">
+                        Coimbatore south, Tamilnadu
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <i class='bx bxs-envelope' ></i>
+                        <a href="#" class="contact-link">
+                            contact.nexusinfo@gmail.com
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <i class='bx bxl-whatsapp' ></i>
+                        <a href="#" class="contact-link">
+                            +91 8778993293
+                        </a>
+                    </li>
+                    <li>
+                        <ul class="social-list">
+                            <li>
+                                <a href="#">
+                                    <i class='bx bxl-facebook-circle' ></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bxl-instagram' ></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bxl-linkedin-square' ></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="bottom-content">
+                <p class="copyright">
+                     @ 2023 NEXUS | All Rights Reserved by 
+                    <a href="#" class="copyright-link">
+                        Nexus Group
+                    </a>
+                </p>
+                <ul class="footer-bottom-list">
+                    <li>
+                        <a href="#" class="footer-bottom-link">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-bottom-link">
+                            Terms Of Use
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
 </body>
 
 </html>
